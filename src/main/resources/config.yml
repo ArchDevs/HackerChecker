@@ -1,0 +1,34 @@
+#
+# _    _            _               _____ _               _
+#| |  | |          | |             / ____| |             | |
+#| |__| | __ _  ___| | _____ _ __ | |    | |__   ___  ___| | _____ _ __
+#|  __  |/ _` |/ __| |/ / _ \ '__ | |    | '_ \ / _ \/ __| |/ / _ \ '__|
+#| |  | | (_| | (__|   <  __/ |   | |____| | | |  __/ (__|   <  __/ |
+#|_|  |_|\__,_|\___|_|\_\___|_|    \_____|_| |_|\___|\___|_|\_\___|_|
+#
+# By Damgel
+# Use legacy colors for hex!
+
+# Should plugin teleport player to the spawn at check?
+teleport-spawn: true
+# Should plugin teleport back player if he ended check.
+teleport-back: true
+
+Messages:
+  check-usage: '&cError!&r&7 Usage: &a/check [player]'
+  contact-usage: '&cError!&r&7 Usage: &a/contact [message]'
+
+  config-reload: '&aConfiguration reloaded'
+  player-not-online: '&4Player is not online'
+  # Message that player is not allowed to write except /contact
+  not-allowed: '&cYou are allowed to use just /contact'
+
+  player-on-check: '&bPlayer is on check'
+  player-is-free: '&aPlayer is free'
+  no-one-check: '&7No one is checking you'
+  message-from: 'Message from'
+  message-send: 'Message sent to'
+
+Title:
+  title: '&6CHECK!'
+  subtitle: 'Write /contact and your Discord!'

@@ -1,0 +1,22 @@
+name: HackerChecker
+version: '${version}'
+main: mnt.damgel.hackerchecker.HackerChecker
+api-version: '1.16'
+authors: [Damgel]
+description: Help administration to check players for hacks
+commands:
+  check:
+    description: Allows to check player
+    permission: hackerchecker.check
+    permission-message: You do not have permissions
+    aliases:
+      - hcheck
+      - checker
+  contact:
+    description: Allows to contact on a check
+  reload:
+    description: Reloads configuration
+    permission: hackerchecker.reload
+permissions:
+  hackerchecker.bypass:
+    description: You can't be checked
